@@ -1,0 +1,21 @@
+{
+  "name": "simple-js-template",
+  "author": "Flavio (nickfla1) Lanternini Strippoli",
+  "version": "0.1.0",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.0",
+    "pinst": "^3.0.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  }
+}
