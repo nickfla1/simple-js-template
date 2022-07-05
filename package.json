@@ -1,11 +1,5 @@
 {
-  "name": "simple-js-template",
   "author": "Flavio (nickfla1) Lanternini Strippoli",
-  "version": "0.1.0",
-  "packageManager": "yarn@3.2.1",
-  "engines": {
-    "node": ">=16.15.0"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
@@ -17,12 +11,18 @@
     "pinst": "^3.0.0",
     "prettier": "^2.7.1"
   },
+  "engines": {
+    "node": ">=16.15.0"
+  },
+  "name": "simple-js-template",
+  "packageManager": "yarn@3.2.1",
   "scripts": {
     "test": "jest --passWithNoTests",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
   },
+  "version": "0.1.0",
   "volta": {
     "node": "16.15.1",
     "yarn": "1.22.19"
