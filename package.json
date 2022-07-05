@@ -22,5 +22,8 @@
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
+  },
+  "volta": {
+    "node": "16.15.1"
   }
 }
