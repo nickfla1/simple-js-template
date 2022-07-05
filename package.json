@@ -10,10 +10,12 @@
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.0",
+    "jest": "^28.1.2",
     "pinst": "^3.0.0",
     "prettier": "^2.7.1"
   },
   "scripts": {
+    "test": "jest",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable"
